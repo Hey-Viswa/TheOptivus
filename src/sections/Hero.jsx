@@ -3,7 +3,6 @@ import sanityClient from "../lib/sanityClient";
 import { urlFor } from "../lib/imageBuilder";
 import { getHeroQuery } from "../lib/queries";
 
-
 const Hero = () => {
   const [hero, setHero] = useState(null);
 
